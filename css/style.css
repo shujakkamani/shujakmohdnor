@@ -13,6 +13,11 @@ body {
   padding: 45px 0;
 }
 
+.layout_padding3 {
+  padding-left: 67px;
+  padding-right: 5px;
+}
+
 .layout_padding2-top {
   padding-top: 45px;
   padding-bottom: 45px;
@@ -167,7 +172,7 @@ a:focus {
 .custom_nav-container {
   z-index: 99999;
   padding: 0;
-  height: 70px;
+  height: 50px;
 }
 
 .custom_nav-container .navbar-toggler {

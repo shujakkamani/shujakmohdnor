@@ -196,20 +196,20 @@
                       MENUMIZ SDN BHD <p class="small small">(formerly VOICE OF URANUS SDN BHD) </p>
                     </h3>
                     <h5>
-                      JUNE 2017 – NOV 2020
+                      JUNE 2017 – JAN 2021
                     </h5>
                   </div>
                 </div>
                 <div class="t-link-box collapsed" data-toggle="collapse" data-target="#collapseOneFour" aria-expanded="false" aria-controls="collapseOneFour">
                   <div class="img-box">
-                    <img src="images/f4.png" alt="">
+                    <img src="images/f3.png" alt="">
                   </div>
                   <div class="detail-box">
                     <h3>
                       DYNABYTES KOMPUTER SDN BHD
                     </h3>
                     <h5>
-                      FEB 2017 – MAY 2017
+                      MAY 2016 – SEPT 2016
                     </h5>
                   </div>
                 </div>
@@ -277,7 +277,7 @@
         </h2>
       </div>
       <div class="category_container">
-        <div class="box">
+        <div class="box panel">
           <div class="img-box">
             <img src="images/c2.png" alt="">
           </div>
@@ -296,7 +296,7 @@
 			</ul>
           </div>
         </div>
-        <div class="box">
+        <div class="box panel">
           <div class="img-box">
             <img src="images/c3.png" alt="">
           </div>
@@ -315,7 +315,7 @@
 			</ul>
           </div>
         </div>
-        <div class="box">
+        <div class="box panel">
           <div class="img-box">
             <img src="images/c5.png" alt="">
           </div>
@@ -352,7 +352,7 @@
               </div>
               <div class="tab_container">
                 <div class="t-link-box" >
-                  <div class="img-box">
+                  <div class="img-box icon-container">
                     <img src="images/f1.png" alt="">
                   </div>
                   <div class="detail-box">
@@ -391,7 +391,7 @@
                   </div>
                 </div>-->
                 <div class="t-link-box " >
-                  <div class="img-box">
+                  <div class="img-box icon-container">
                     <img src="images/f4.png" alt="">
                   </div>
                   <div class="detail-box">
@@ -497,6 +497,9 @@
             </a>
             <a href="#">
               <img src="images/instagram.png" alt="">
+            </a>
+			<a href="https://wa.me/601119309680">
+              <img src="images/whatsapp.png" alt="">
             </a>
           </div>
         </div>
@@ -610,6 +613,22 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
+<script>
+document.addEventListener('scroll', function () {
+    const icons = document.querySelectorAll('.icon-container'); // Pilih semua elemen dengan kelas .icon-container
+
+    icons.forEach((icon) => {
+        const rect = icon.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+
+        // Periksa jika elemen berada dalam viewport
+        if (rect.top < windowHeight && rect.bottom >= 0) {
+            icon.classList.add('visible'); // Tambah kelas visible
+        }
+    });
+});
+
+</script>
 
 
 </body>
